@@ -1,0 +1,52 @@
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Build output
+/build/
+*/build/
+
+# Local config
+local.properties
+.gradle/
+.cxx/
+.externalNativeBuild/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log, crash & system files
+*.log
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+
+# APKs
+*.apk
+*.ap_
+
+# Keystore files (⚠️ Nunca envie chaves privadas!)
+*.jks
+*.keystore
+
+# Unit test reports
+/test-results/
+*.ec
+
+# Android Profiling
+captures/
+
+# Backup or hidden files
+*.swp
+*~
+.*.sw?
+
+# Jetpack Compose (se usar)
+.compose/
+
+# Kotlin
+*.kts~
